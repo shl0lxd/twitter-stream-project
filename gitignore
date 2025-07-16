@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+.pyspark-env/
+*.env
+
+# macOS specific
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/streamed_tweets.json
+data/tweet_dataset.csv
+
+# Git LFS will handle these large files
+!.gitattributes
+
+# Python egg and dist folders
+*.egg-info/
+dist/
+build/
+
+# FastAPI/UVicorn specific
+*.sqlite3
